@@ -4,10 +4,59 @@
 }
 
 body {
+    box-sizing: border-box;
+    height: 100vh;
     background-color: #181c1f;
     color: #F6F6F6;
 }
 
-.titledest {
+.titleDest {
     color:#22D4FD;
 }
+
+.TextFoto {
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ApresentacaoConteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.Tituloh1Main {
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.paragrafoola {
+    font-size: 24px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link1 {
+background-color: #22D4FD;
+text-align: center;
+border-radius: 16px;
+/* width: 280px; */
+padding: 21px 53px;
+color: rgb(1, 45, 40);
+text-decoration: none;
+font-size: 24px;
+font-family: 'Montserrat', sans-serif;
+}
+
+.img1 {
+    border-radius: 10px;
+    box-shadow: 8px -8px 7px 4px #22D4FD /* rgba(5, 193, 180, 0.691) */;
+}
+
