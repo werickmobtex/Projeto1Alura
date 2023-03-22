@@ -39,21 +39,31 @@ body {
     font-family: 'Roboto Mono', monospace;
 }
 
+.subtituloh2 {
+    font-family: 'krona one', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
 .links {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    gap: 32px;
+    align-items: center;
 }
 
 .link1 {
-background-color: #22D4FD;
-text-align: center;
-border-radius: 16px;
-/* width: 280px; */
-padding: 21px 53px;
-color: rgb(1, 45, 40);
-text-decoration: none;
-font-size: 24px;
-font-family: 'Montserrat', sans-serif;
+    border: 2px outset #22D4FD;
+    text-align: center;
+    border-radius: 8px;
+    padding: 21px;
+    width: 378px;
+    color: rgb(1, 45, 40);
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    color: #F6F6F6;
 }
 
 .linha {
